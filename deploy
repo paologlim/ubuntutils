@@ -3,25 +3,26 @@
 sudo apt-get update && sudo apt-get upgrade
 
 # base packages
-sudo apt-get install build-essential ubuntu-restricted-extras openjdk-7-jre
+sudo apt-get install build-essential ubuntu-restricted-extras openjdk-7-jre -y
 
 # utilities
-sudo apt-get install terminator parcellite keepassx emacs vim kupfer wine xmonad curl
+sudo apt-get install terminator parcellite keepassx emacs vim kupfer wine xmonad curl gnome-disk-utility -y
 
 # media
-sudo apt-get install vlc rhythmbox flashplugin-nonfree
+sudo apt-get install vlc rhythmbox flashplugin-nonfree gstreamer0.10-ffmpeg gstreamer0.10-plugins-bad -y
 
 # internet
-sudo apt-get install pidgin skype chromium-browser transmission thunderbird
+sudo apt-get install pidgin skype chromium-browser transmission thunderbird -y
 
 # git
-sudo apt-get install git-core tig
+sudo apt-get install git-core tig -y
 
 # rails
 curl -L get.rvm.io | bash -s stable
 
-sudo apt-get install bison openssl libreadline6 libreadline6-dev zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev
+sudo apt-get install bison openssl libreadline6 libreadline6-dev zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev -y
 
 # mysql
+sudo apt-get install mysql-server mysql-client libmysql-ruby libmysqlclient-dev -y
 
 # others
