@@ -12,7 +12,7 @@ sudo apt-get install terminator parcellite keepassx emacs vim kupfer wine xmonad
 sudo apt-get install vlc rhythmbox flashplugin-installer gstreamer0.10-ffmpeg gstreamer0.10-plugins-bad -y
 
 # internet
-sudo apt-get install pidgin skype chromium-browser transmission thunderbird -y
+sudo apt-get install pidgin skype chromium-browser transmission thunderbird dropbox -y
 
 # git
 sudo apt-get install git-core tig -y
